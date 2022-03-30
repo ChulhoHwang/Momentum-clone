@@ -1,6 +1,9 @@
+@import "components/clock.css";
+
 .hidden {
   display: none;
 }
+
 img {
   position: absolute;
   top: 0;
@@ -8,10 +11,10 @@ img {
   right: 0px;
   bottom: 0px;
   z-index: -1;
-  opacity: 80%;
+  opacity: 50%;
   object-fit: fill;
 
   /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
 }
